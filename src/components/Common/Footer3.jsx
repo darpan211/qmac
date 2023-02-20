@@ -112,10 +112,10 @@ class Footer3 extends React.Component {
                                     <div className="widget widget_address_outer">
                                         <h5 className="widget-title">Contact Us</h5>
                                         <ul className="widget_address">
-                                        <li>Dhuva Chokadi, Opp - AK Hotel, Near Topp Ceramic, Behind Nayara Petrol Pump, NH-8a, Dhuva, Ta. - Wankaner, Dis. - Morbi (Guj.-India)</li>
-                                            <li>+91 90 81 82 33 55 / 22</li>
-                                            <li>+91 97 27 92 33 65</li>
-                                            <li>info@rudrastepriser.com</li>
+                                        <li>103,First Floor,Swayam Space,<br/>Near Udgam School,<br/>Opp.Matuki Restaurant,<br/> New 80ft Road,Rajkot-360001.</li>
+                                            <li>99099 90018 / 90334 01146</li>
+                                            <li>www.qmac.in</li>
+                                            <li>qmac@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>

@@ -15,7 +15,7 @@ class WhatWeDo6 extends React.Component {
                         <div className="section-head">
                             <div className="sx-separator-outer separator-left">
                                 <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg3 + ')' }}>
-                                    <h3 className="sep-line-one">What We do</h3>
+                                    <h3 className="sep-line-one">What We Are</h3>
                                 </div>
                             </div>
                         </div>
@@ -24,10 +24,10 @@ class WhatWeDo6 extends React.Component {
                             <div className="row number-block-one-outer justify-content-center">
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic1.jpg')} alt="" />
+                                        <img src={require('./../../images/pic6.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Our Mission</h4>
-                                            <span className="m-a-text">True success for a product, comes when it is identified as a brand in the market. Rudra Step Riser is the top brand for many and we aspire to become one of the most favorite brands in the market through the new innovation and dedication.</span>
+                                            <h4 className="m-a0">Endless Possibilities</h4>
+                                            <span className="m-a-text">LV Granito provide you with endless designs and styles available across many dimensions, makinig us the one stop destination for all your ceramic requirements.</span>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>01</span>
@@ -36,10 +36,10 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic2.jpg')} alt="" />
+                                        <img src={require('./../../images/pic5.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Our Vision</h4>
-                                            <span className="m-a-text">We believe in producing premium quality tiles with a diversely skilled team to design and manufacture hence, the company has maintained the record to be a leading tiles company in the competitive market for many years the record to be a leading tiles company in the competitive market for many years.</span>
+                                            <h4 className="m-a0">World Class Technology</h4>
+                                            <span className="m-a-text">All our manufacturing plants are up to date with recent technology in the market, to keep the production quality at par globel standards.</span>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>02</span>
@@ -48,15 +48,10 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/pic3.jpg')} alt="" />
+                                        <img src={require('./../../images/pic12.png')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
-                                            <h4 className="m-a0">Core Value</h4>
-                                            <ul className="list1 list-unstyled">
-                                                <li> <i class="fa fa-check-circle"></i> Quality in everything we do.</li>
-                                                <li> <i class="fa fa-check-circle"></i> Continuous improvements, innovations and embrace change</li>
-                                                <li> <i class="fa fa-check-circle"></i> Team work and open communication. </li>
-                                                <li> <i class="fa fa-check-circle"></i> To create a  productive and rewarding safety work environment.</li>
-                                            </ul>
+                                            <h4 className="m-a0">Growing Network</h4>
+                                            <span className="m-a-text">We are group of production plant in Morbi, Gujrat, we are Continuously growing our list of manufacturing and showrooms for a worldwide presence.</span>
                                         </div>
                                         <div className="figcaption-number text-center sx-text-primary animate-in-to-top-content">
                                             <span>03</span>

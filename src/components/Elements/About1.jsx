@@ -51,8 +51,8 @@ class About1 extends React.Component {
                             <div className="row">
                                 <div className="col-lg-5 col-md-12 col-sm-12">
                                     <div className="about-home-left">
-                                        <h3 className="m-t0 sx-tilte">We Firmly Believe In Healthy Business Relation.</h3>
-                                        <p>Landscape design is a process of developing practical and pleasing outdoor living space. there are six principles of design that have been used by artists for centuries throughout all art forms, painting and floral design.</p>
+                                        <h3 className="m-t0 sx-tilte">We Firmly Believe In Customer Satisfaction</h3>
+                                        <p>Matching risers and landing area tiles ensure exquisite aesthetics. interesting colour combinations, skid resistance, faster installation, ready to use, low maintenance, and cost-effectiveness make the Johnson Endura tiles a leading player in the staircase tiles market.</p>
                                         <div className="text-left">
                                             <NavLink to="/about-us" className="site-button-secondry btn-half"><span>Read More</span></NavLink>
                                         </div>

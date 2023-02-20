@@ -66,7 +66,7 @@ class WhatWeDo1 extends React.Component {
                                     </div>
                                     <div className="col-lg-6 col-md-12	col-sm-12">
                                         <div className="large-title-info">
-                                            <p>Vivid colors and abstract patterns, combined with unique uses of light, textures, and space, create an outdoor space that magnifies...</p>
+                                            <p>An array of alluring shades and textures in the Staircase tiles range , truly reflect the design excellence and innovation . Along with creating an artistic appeal , our Staircase Tiles provide superior structural stability .</p>
                                             <div className="text-left">
                                                 <NavLink to={"/about-us"} className="site-button-link">Read More</NavLink>
                                             </div>

@@ -50,7 +50,7 @@ class Header2 extends React.Component {
                         <div className="container">
                             <div className="d-flex justify-content-between ">
                                 <ul className="list-unstyled e-p-bx text-white">
-                                    <li><span>Mail us:</span> info@rudrastepriser.com</li>
+                                    <li><span>Mail us:</span> qmac@gmail.com</li>
                                     <li><span>Call us:</span>(075) 123-7654</li>
                                 </ul>
                                 <ul className="list-unstyled social-bx text-white d-flex flex-wrap align-content-center">

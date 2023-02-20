@@ -10388,6 +10388,27 @@ button.scroltop span {
 .page-content {
 	position: relative;
 }
+.table-th{
+background-color:#20263c;
+}
+.subwey-th,.table-td,.table-th{
+	text-align: center;
+}
+@media only screen and ( max-width:780px) {
+	.table-th,.subwey-th,.table-td{
+font-size: 12px;
+	}
+}
+@media only screen and ( max-width:524px) {
+	.table-th,.subwey-th,.table-td,.spc-td{
+font-size: 8px;
+	}
+}
+@media only screen and ( max-width:400px) {
+	.table-th,.subwey-th,.table-td{
+font-size: 6px;
+	}
+}
 
 .section-full {
 	position: relative;

@@ -57,7 +57,7 @@ class Header extends React.Component {
                         <div className="container">
                             <div className="d-flex justify-content-end">
                                 <ul className="list-unstyled e-p-bx">
-                                    <li><span>Mail us:</span> info@rudrastepriser.com</li>
+                                    <li><span>Mail us:</span> qmac@gmail.com</li>
                                     <li><span>Call us:</span>(075) 123-7654</li>
                                 </ul>
                             </div>
@@ -118,7 +118,7 @@ class Header extends React.Component {
                                                             <div className="icon-xs inline-icon m-b20 scale-in-center"><i className="fa fa-envelope" /></div>
                                                             <div className="icon-content">
                                                                 <h6 className="m-t0">Email address</h6>
-                                                                <p>info@rudrastepriser.com</p>
+                                                                <p>qmac@gmail.com</p>
                                                             </div>
                                                         </div>
                                                         <div className="sx-icon-box-wraper left p-b30">

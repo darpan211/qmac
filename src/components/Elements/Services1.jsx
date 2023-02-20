@@ -4,37 +4,37 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: '01',
-        title: 'Reasearch & Development',
+        title: 'Resistant to Acids And Chemicals',
         flaticon: 'flaticon-sketch',
         description: 'Their concepts have helped Rudra in upgrading technology & product line to attain higher levels of perfection...',
     },
     {
         count: '02',
-        title: 'Focus on Quality',
+        title: 'Resistant to loads',
         flaticon: 'flaticon-stairs',
         description: 'Rudra Step & Riser is committed to harness excellence by implementing strict quality control policy...',
     },
     {
         count: '03',
-        title: 'Unique Design',
+        title: 'Stain Resistant ',
         flaticon: 'flaticon-window',
         description: 'We are concerned about our manufacturing process is non-polluting and any harmful materials into...',
     },
     {
         count: '04',
-        title: 'Advance Technology',
+        title: 'Durable Over Time',
         flaticon: 'flaticon-skyline',
         description: 'Rudra Step & Riser has perfected the techniques. Its tiles the most durable and appealing in the market...',
     },
     {
         count: '05',
-        title: 'Furniture',
+        title: 'Resistant to Thermal Shock',
         flaticon: 'flaticon-bed',
         description: 'Our team also provides consultations on all architectural issues, even if you need specific info about working...',
     },
     {
         count: '06',
-        title: 'Decoration',
+        title: 'Environment Friendly',
         flaticon: 'flaticon-door',
         description: 'We combine Interior and Exterior Design services and often provide them as a single solution. It helps us...',
     }
@@ -54,7 +54,7 @@ class Services1 extends React.Component {
                             <div className="section-head">
                                 <div className="sx-separator-outer separator-left">
                                     <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
-                                        <h3 className="sep-line-one ">All Services</h3>
+                                        <h3 className="sep-line-one ">Technical Characteristics</h3>
                                     </div>
                                 </div>
                             </div>

@@ -13,43 +13,43 @@ const filters = [
 
 const projects = [
     {
-        image: require('./../../images/projects/portrait/pic1.jpg'),
+        image: require('./../../images/projects/portrait/Layer6.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-one'
     },
     {
-        image: require('./../../images/projects/portrait/pic2.jpg'),
+        image: require('./../../images/projects/portrait/Layer7.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-two'
     },
     {
-        image: require('./../../images/projects/portrait/pic3.jpg'),
+        image: require('./../../images/projects/portrait/Layer8.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-three'
     },
     {
-        image: require('./../../images/projects/portrait/pic4.jpg'),
+        image: require('./../../images/projects/portrait/layer24.webp.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-four'
     },
     {
-        image: require('./../../images/projects/portrait/pic5.jpg'),
+        image: require('./../../images/projects/portrait/Layer22.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-three'
     },
     {
-        image: require('./../../images/projects/portrait/pic6.jpg'),
+        image: require('./../../images/projects/portrait/Layer15.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-two'
     },
     {
-        image: require('./../../images/projects/portrait/pic7.jpg'),
+        image: require('./../../images/projects/portrait/Layer12.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-one'

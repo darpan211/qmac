@@ -81,14 +81,14 @@ class ContactUs extends React.Component {
                                                     <div className="icon-xs"><i className="fa fa-envelope" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0">Email address</h5>
-                                                        <p>info@rudrastepriser.com</p>
+                                                        <p>qmac@gmail.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="sx-icon-box-wraper left">
                                                     <div className="icon-xs"><i className="fa fa-map-marker" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0">Address info</h5>
-                                                        <p>Dhuva Chokadi, Opp - AK Hotel, Near Topp Ceramic, Behind Nayara Petrol Pump, NH-8a, Dhuva, Ta. - Wankaner, Dis. - Morbi (Guj.-India)</p>
+                                                        <p>103,First Floor,Swayam Space,<br/>Near Udgam School,<br/> Opp.Matuki Restaurant,<br/> New 80ft Road,Rajkot-360001.</p>
                                                     </div>
                                                 </div>
                                             </div>
