@@ -157,7 +157,7 @@ class Footer extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="sx-footer-bot-left">
-                                    <span className="copyrights-text">©Copyright 20232019 Rudra Step Riser All Rights Reserved</span>
+                                    <span className="copyrights-text">©Copyright {new Date().getFullYear()} QMAC | All Rights Reserved.</span>
                                 </div>
                             </div>
                         </div>
