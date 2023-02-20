@@ -6,13 +6,13 @@ const services = [
         count: '01',
         title: 'Resistant to Acids And Chemicals',
         flaticon: 'flaticon-sketch',
-        description: 'Their concepts have helped Rudra in upgrading technology & product line to attain higher levels of perfection...',
+        description: 'Their concepts have helped QMAC in upgrading technology & product line to attain higher levels of perfection...',
     },
     {
         count: '02',
         title: 'Resistant to loads',
         flaticon: 'flaticon-stairs',
-        description: 'Rudra Step & Riser is committed to harness excellence by implementing strict quality control policy...',
+        description: 'QMAC is committed to harness excellence by implementing strict quality control policy...',
     },
     {
         count: '03',
@@ -24,7 +24,7 @@ const services = [
         count: '04',
         title: 'Durable Over Time',
         flaticon: 'flaticon-skyline',
-        description: 'Rudra Step & Riser has perfected the techniques. Its tiles the most durable and appealing in the market...',
+        description: 'QMAC has perfected the techniques. Its tiles the most durable and appealing in the market...',
     },
     {
         count: '05',

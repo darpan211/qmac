@@ -18,7 +18,7 @@ class About2 extends React.Component {
                                     <div className="col-xl-7 col-lg-7 col-md-12">
                                         <div className="about-home-2">
                                             <h3 className="m-t0 sx-tilte">100+ designs and various sizes.</h3>
-                                            <p>Space can become a symbol of comfort when RUDRA INDUSTRIES provides new ideas for decorating your home. With special formate like 1200 x 300mm, 1000 x 300mm, 900 x 300mm in Vitrified Step & Riser which seem to enlarge available space and enhance the concepts of living quality.</p>
+                                            <p>Space can become a symbol of comfort when QMAC provides new ideas for decorating your home. With special formate like 1200 x 300mm, 1000 x 300mm, 900 x 300mm in Vitrified Step & Riser which seem to enlarge available space and enhance the concepts of living quality.</p>
                                             <div className="text-left">
                                             <NavLink to={"/about-2"} className="site-button-link">Read More</NavLink>
                                             </div>
