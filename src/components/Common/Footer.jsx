@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Switcher from '../Elements/Switcher';
-
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 class Footer extends React.Component {
     render() {
 
@@ -12,17 +13,93 @@ class Footer extends React.Component {
                     <div className="footer-top overlay-wraper">
                         <div className="overlay-main" />
                         <div className="container">
-                            <div className="row">
-                                {/* ABOUT COMPANY */}
-                                <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="container">
+                            <div className="call-to-action-wrap">
+                                <div className="row">
+                                    <div className="col-lg-7 col-md-6">
+                                        {/* <div className="col-lg-3 col-md-6 col-sm-6"> */}
                                     <div className="widget widget_about">
                                         {/*<h4 class="widget-title">About Company</h4>*/}
-                                        <div className="logo-footer clearfix p-b15">
+                                        <div className="logo-footer clearfix p-b15 q-mac-white">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/q-mac.png')} alt="Inteshape" />
+                                                <img src={require('./../../images/q-mac-white.png')} alt="Inteshape" />
                                             </NavLink>
                                         </div>
                                         <p>A One Step Ahead...</p>
+                                        {/* <ul className="social-icons  sx-social-links">
+                                            <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
+                                            <li><a href="https://www.facebook.com" className="fa fa-facebook" target="_blank"></a></li>
+                                            <li><a href="https://twitter.com" className="fa fa-twitter" target="_blank"></a></li>
+                                            <li><a href="https://www.instagram.com" className="fa fa-instagram" target="_blank"></a></li>
+                                        </ul> */}
+                                    </div>
+                                {/* </div> */}
+                                        {/* <div className="call-to-action-left">
+                                            <h5 className="text-uppercase m-b10 m-t0">SUBSCRIBE US</h5>
+                                            <span>Sign Up to our Newsletter to get the latest news and offers.</span>
+                                        </div> */}
+                                    </div>
+                                    <div className="col-lg-5 col-md-6">
+                                    <div className="widget widget_address_outer">
+                                        {/* <h5 className="widget-title">Contact Us</h5> */}
+                                      
+                                        <ul className="widget_address">
+                                            <div className="widget_address_contact">103,First Floor,Swayam Space,Near Udgam School,Opp.Matuki Restaurant, New 80ft Road,Rajkot-360001.</div>
+                                            {/* <li>103,First Floor,Swayam Space,Near Udgam School,Opp.Matuki Restaurant, New 80ft Road,Rajkot-360001.</li> */}
+                                            {/* <li>99099 90018 / 90334 01146</li>
+                                            <li>www.qmac.in</li>
+                                            <li>qmac@gmail.com</li> */}
+                                        </ul>
+                                        <div className="row">
+                                            <div className="col-xl-6 col-md-12 col-sm-6 contact_email">
+                                                <div className='email_icon'>
+                                                    <EmailIcon className='p-1'/>
+                                                </div>
+                                                <div className='mx-3'>
+                                                    <div>qmac@gmail.com</div>
+                                                    <div>www.qmac.in</div>
+                                                </div>
+                                                </div>
+                                            <div className="col-xl-6 col-md-12 col-sm-6 contact_phone">
+                                                <div className='phone_icon'>
+                                                    <PhoneIcon className='p-1'/>
+                                                </div> 
+                                                <div className='mx-3'>
+                                                    <div>+91 99099 90018</div>
+                                                    <div>+91 90334 01146</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        {/* <div className="call-to-action-right">
+                                            <div className="widget_newsletter">
+                                                <div className="newsletter-bx">
+                                                    <form role="search" method="post" action="#">
+                                                        <div className="input-group">
+                                                            <input name="news-letter" className="form-control" placeholder="Email address" type="text" />
+                                                            <span className="input-group-btn">
+                                                                <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
+                                                            </span>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div className="row mt-4">
+                                {/* ABOUT COMPANY */}
+                                <div className="col-lg-3 col-md-6 col-sm-6">
+                                    <div className="widget widget_about">
+                                        <h4 class="widget-title">Social Touch</h4>
+                                        {/* <div className="logo-footer clearfix p-b15">
+                                            <NavLink to={"./"}>
+                                                <img src={require('./../../images/q-mac-white.png')} alt="Inteshape" />
+                                            </NavLink>
+                                        </div>
+                                        <p>A One Step Ahead...</p> */}
                                         <ul className="social-icons  sx-social-links">
                                             <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
                                             <li><a href="https://www.facebook.com" className="fa fa-facebook" target="_blank"></a></li>
@@ -111,18 +188,15 @@ class Footer extends React.Component {
                                 {/* CONTACT US */}
                                 <div className="col-lg-3 col-md-6 col-sm-6">
                                     <div className="widget widget_address_outer">
-                                        <h5 className="widget-title">Contact Us</h5>
+                                        <h5 className="widget-title">Download</h5>
                                         <ul className="widget_address">
-                                            <li>103,First Floor,Swayam Space,<br/>Near Udgam School,<br/> Opp.Matuki Restaurant,<br/> New 80ft Road,Rajkot-360001.</li>
-                                            <li>99099 90018 / 90334 01146</li>
-                                            <li>www.qmac.in</li>
-                                            <li>qmac@gmail.com</li>
+                                            <li>Catalogue</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="container">
+                        {/* <div className="container">
                             <div className="call-to-action-wrap">
                                 <div className="row">
                                     <div className="col-lg-7 col-md-6">
@@ -149,10 +223,10 @@ class Footer extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* FOOTER COPYRIGHT */}
-                    <div className="footer-bottom overlay-wraper">
+                    {/* <div className="footer-bottom overlay-wraper">
                         <div className="overlay-main" />
                         <div className="container">
                             <div className="row">
@@ -161,7 +235,7 @@ class Footer extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </footer>
                 <Switcher/>
 

@@ -16,31 +16,13 @@ const projects = [
         image: require('./../../images/projects/portrait/Layer6.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
-        filter: 'col-one'
+        filter: 'col-two'
     },
     {
         image: require('./../../images/projects/portrait/Layer7.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
-        filter: 'col-two'
-    },
-    {
-        image: require('./../../images/projects/portrait/Layer8.png'),
-        title: 'Chair Furniture',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'col-three'
-    },
-    {
-        image: require('./../../images/projects/portrait/layer24.webp.png'),
-        title: 'Chair Furniture',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'col-four'
-    },
-    {
-        image: require('./../../images/projects/portrait/Layer22.png'),
-        title: 'Chair Furniture',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'col-three'
+        filter: 'col-one'
     },
     {
         image: require('./../../images/projects/portrait/Layer15.png'),
@@ -49,10 +31,59 @@ const projects = [
         filter: 'col-two'
     },
     {
-        image: require('./../../images/projects/portrait/Layer12.png'),
+        image: require('./../../images/projects/portrait/Layer8.png'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         filter: 'col-one'
+    },
+    {
+        image: require('./../../images/projects/portrait/layer24.webp.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-one'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer28.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-three'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer22.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-one'
+    },
+    
+    {
+        image: require('./../../images/projects/portrait/Layer12.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-four'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer25.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-one'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer26.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-one'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer27.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-three'
+    },
+    {
+        image: require('./../../images/projects/portrait/Layer29.png'),
+        title: 'Chair Furniture',
+        address: 'Muscat, Sultanate of Oman',
+        filter: 'col-three'
     }
 ]
 

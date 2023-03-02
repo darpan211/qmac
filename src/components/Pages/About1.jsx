@@ -39,8 +39,8 @@ class About1 extends React.Component {
                     <Banner title="About Us" pagename="About Us" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
                     <About2 />
                     <WhatWeDo6 />
-                    <Achievements1 />
-                    <Team2 />
+                    {/* <Achievements1 /> */}
+                    {/* <Team2 /> */}
                     <Testimonials2 separatoralignment="separator-center" />
                 </div>
 

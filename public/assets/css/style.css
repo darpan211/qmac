@@ -7009,6 +7009,21 @@ input[type=radio]:checked+label:before {
 .widget_address li {
 	margin-bottom: 20px;
 }
+.widget_address_contact{
+	font-size: 20px;
+
+}
+.contact_email,.contact_phone{
+	display: flex;
+	font-size: 16px;
+    align-items:center;
+}
+.email_icon,.phone_icon{
+	/* padding: 0 15px 0 0; */
+	color:#e31c22;
+	border: 1px solid;
+    border-radius: 60%;
+}
 
 .widget_address_outer .social-icons li {
 	padding-right: 10px;
@@ -8198,6 +8213,9 @@ HEADER (top part of page)
 	margin-right: 0;
 	position: relative;
 	z-index: 9;
+}
+.q-mac-white{
+	width: 70%;
 }
 
 .logo-footer-inner {
