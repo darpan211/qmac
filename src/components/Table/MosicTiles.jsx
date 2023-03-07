@@ -73,7 +73,7 @@ export default function MosicTiles() {
   return (
     <Paper sx={{ width: '100%', overflow: 'hidden' }}>
       <TableContainer sx={{ maxHeight: 440 }}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table stickyHeader aria-label="sticky table" style={{marginBottom:'0px'}}>
           <TableHead>
             <TableRow>
               {columns.map((column) => (
@@ -117,6 +117,7 @@ export default function MosicTiles() {
         page={page}
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
+        className='table-pagination'
       />
     </Paper>
   );

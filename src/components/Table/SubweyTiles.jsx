@@ -12,37 +12,33 @@ const columns = [
   { id: 'dimention', label: 'DIMENTION', minWidth: 170 },
   { id: 'tiles', label: 'TILES  PER BOX(Pcs)', minWidth: 100 },
   {
-    id: 'population',
+    id: 'area1',
     label: 'AREA COVERAGE PER BOX(SQ.FT.) APPROX',
     minWidth: 170,
     align: 'right',
-    format: (value) => value.toLocaleString('en-US'),
   },
   {
-    id: 'size',
+    id: 'area2',
     label: 'AREA COVERAGE PER BOX(SQ.MT.) APPROX',
     minWidth: 170,
     align: 'right',
-    format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'density',
     label: 'WEIGHT PER BOX(KG.) APPROX',
     minWidth: 170,
     align: 'right',
-    format: (value) => value.toFixed(2),
   },
   {
     id: 'thickness',
     label: 'THICKNESS(mm) APPROX',
     minWidth: 170,
     align: 'right',
-    format: (value) => value.toLocaleString('en-US'),
   },
 ];
 
-function createData(dimention, tiles, population, size,density,thickness) {
-  return { dimention, tiles, population, size, density,thickness };
+function createData(dimention, tiles, area1, area2,density,thickness) {
+  return { dimention, tiles, area1, area2, density,thickness };
 }
 
 const rows = [
@@ -73,7 +69,7 @@ export default function SubweyTiles() {
   return (
     <Paper sx={{ width: '100%', overflow: 'hidden' }}>
       <TableContainer sx={{ maxHeight: 440 }}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table stickyHeader aria-label="sticky table" style={{marginBottom:'0px'}}>
           <TableHead>
             <TableRow>
               {columns.map((column) => (
@@ -117,6 +113,7 @@ export default function SubweyTiles() {
         page={page}
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
+        className='table-pagination'
       />
     </Paper>
   );

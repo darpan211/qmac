@@ -7024,7 +7024,11 @@ input[type=radio]:checked+label:before {
 	border: 1px solid;
     border-radius: 60%;
 }
-
+.email_icon:hover,.phone_icon:hover {
+	cursor: pointer;
+	color:white;
+	background-color:#e31c22;
+}
 .widget_address_outer .social-icons li {
 	padding-right: 10px;
 }
@@ -8701,11 +8705,14 @@ padding:7px 0px;
 	color: #222;
 	display:inline-block;
 	font-size: 14px;
-	padding: 33px 12px;
+	padding: 33px 26px;
 	cursor: pointer;
 	margin: -7px 0;
 	font-weight: 600;
 	text-transform: capitalize;
+}
+.table-pagination > div > p{
+	margin: 0px;
 }
 
 .header-nav .nav>li>a:hover {
@@ -9369,7 +9376,7 @@ padding:7px 0px;
 }
 
 .is-fixed .header-nav .nav>li>a {
-	padding: 34px 12px;
+	padding: 34px 26px;
 }
 
 .is-fixed .extra-nav {
@@ -9380,7 +9387,7 @@ padding:7px 0px;
 
 
 
-.is-fixed.color-fill .header-nav .nav > li > a { padding:34px 12px;}
+.is-fixed.color-fill .header-nav .nav > li > a { padding:34px 26px;}
 
 
 .is-fixed.color-fill.main-bar {
@@ -10160,7 +10167,7 @@ padding:7px 0px;
 }
 
 .footer-top {
-	padding:60px 0px 60px 0px;
+	padding:50px 0px 0px 0px;
 }
 
 .footer-wide .container-fluid {
