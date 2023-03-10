@@ -1,48 +1,59 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 const services = [
     {
         count: '01',
         title: 'Resistant to Acids And Chemicals',
-        flaticon: 'flaticon-sketch',
-        description: 'Their concepts have helped QMAC in upgrading technology & product line to attain higher levels of perfection...',
+        img:require('./../../images/projects/portrait/chemicals.png'),
+        description: 'materials that are resistant to acids and chemicals are important in many industries such as chemical processing, industrial manufacturing, and even household products.',
     },
     {
         count: '02',
         title: 'Resistant to loads',
-        flaticon: 'flaticon-stairs',
-        description: 'QMAC is committed to harness excellence by implementing strict quality control policy...',
+        img:require('./../../images/projects/portrait/loads.png'),
+
+        description: 'resistant to loads are able to withstand forces and stresses that are applied to them without undergoing deformation or failure. ',
     },
     {
         count: '03',
         title: 'Stain Resistant ',
-        flaticon: 'flaticon-window',
-        description: 'We are concerned about our manufacturing process is non-polluting and any harmful materials into...',
+        img:require('./../../images/projects/portrait/stain.png'),
+        description: 'Stain resistance refers to the ability of a material to resist or repel stains caused by various substances, such as food, drinks, and chemicals.',
     },
     {
         count: '04',
         title: 'Durable Over Time',
-        flaticon: 'flaticon-skyline',
-        description: 'QMAC has perfected the techniques. Its tiles the most durable and appealing in the market...',
+        img:require('./../../images/projects/portrait/durable.png'),
+        description: 'Durability over time refers to the ability of a material to withstand wear and tear over an extended period of time.',
     },
     {
         count: '05',
         title: 'Resistant to Thermal Shock',
-        flaticon: 'flaticon-bed',
-        description: 'Our team also provides consultations on all architectural issues, even if you need specific info about working...',
+        img:require('./../../images/projects/portrait/thermal.png'),
+        description: 'Thermal shock resistance refers to the ability of a material to resist sudden and extreme changes in temperature without cracking or breaking.',
     },
     {
         count: '06',
         title: 'Environment Friendly',
-        flaticon: 'flaticon-door',
-        description: 'We combine Interior and Exterior Design services and often provide them as a single solution. It helps us...',
+        img:require('./../../images/projects/portrait/environment.png'),
+        description: 'Environmentally friendly tiles are tiles that are designed to have minimal impact on the environment throughout their lifecycle. ',
     }
 ]
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class Services1 extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            isShow: true,
+            index:null,
+        }
+    }
+    readMore=(index)=>{
+        this.setState({index:index});
+        this.setState({isShow:!this.state.isShow})
+    };
     render() {
 
         return (
@@ -66,13 +77,13 @@ class Services1 extends React.Component {
                                             <div className="icon-count-2 bg-white">
                                                 <span className="icon-count-number">{item.count}</span>
                                                 <div className="icon-xl inline-icon m-b5 scale-in-center">
-                                                    <span className="icon-cell"><i className={item.flaticon} /></span>
+                                                    <span className="icon-cell"><img src={item.img} /></span>
                                                 </div>
                                                 <div className="icon-content">
                                                     <h4 className="sx-tilte">{item.title}</h4>
-                                                    <p>{item.description}</p>
+                                                    <p>{index===this.state.index&&this.state.isShow?item.description:`${item.description.slice(0,70)} ...`}</p>
                                                     <div className="text-left">
-                                                        <NavLink to={"/4-feet-gvt-step-riser"} className="site-button-link">Read More</NavLink>
+                                                        <div onClick={()=>{this.readMore(index,"index")}} className="site-button-link" style={{cursor:'pointer'}}>Read More</div>
                                                     </div>
                                                 </div>
                                             </div>
